@@ -47,7 +47,7 @@ email-tone-converter/
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/email-tone-converter.git
+   git clone https://github.com/shotintoeternity/email-tone-converter.git
    cd email-tone-converter
    ```
 
