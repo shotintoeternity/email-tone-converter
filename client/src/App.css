@@ -1,0 +1,97 @@
+.App {
+  width: 90%;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.email-textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  line-height: 1.5;
+}
+
+.tone-options {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.tone-options label {
+  margin: 0 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.convert-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.result-card {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  border-left: 5px solid #007bff;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  white-space: pre-wrap;  /* Preserve line breaks */
+  line-height: 1.5;
+  cursor: text;
+  text-align: left;       /* Ensure left-justification */
+  position: relative;
+}
+
+.result-card p {
+  text-align: left;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
